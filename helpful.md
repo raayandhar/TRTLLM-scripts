@@ -49,3 +49,4 @@ export LD_LIBRARY_PATH=/opt/nvidia/nvda_nixl/lib/x86_64-linux-gnu:/opt/nvidia/nv
 ./nixl_gds_test /tmp/nixl_test
 ```
 
+`squeue -o "%.18i %.9P %.8j %.8u %.2t %.10M %.6D %R" -w viking-prod-323`
